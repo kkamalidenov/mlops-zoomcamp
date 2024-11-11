@@ -9,6 +9,8 @@ __pycache__/
 .bin
 *.db
 *.pkl
+
+*.parquet
 *.html
 *.csv
 *.txt
@@ -16,6 +18,10 @@ __pycache__/
 .venv
 venv
 .idea
+
 **/.env
+**/.terraform/
+**/.terraform.lock*
+**/terraform.tfstate*
 
 .DS_Store
